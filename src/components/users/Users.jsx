@@ -4,7 +4,7 @@ import User from '../user/User';
 
 const Users = () => {
     const users = useLoaderData();
-    console.log(users);
+
     return (
         <div>
             <h1>My Subscribers {users.length}</h1>
