@@ -10,8 +10,9 @@ import Posts from './components/posts/Posts';
 import UserDetail from './components/userDtail/UserDetail';
 import Users from './components/users/Users';
 import Contact from './contact/Contact';
-import Home from './contact/home/Home';
+
 import First from './first/First';
+import Home from './home/Home';
 import './index.css';
 
 
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '*',
+        element: <div>444444444444000040400000444444</div>
       }
     ]
   }
